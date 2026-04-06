@@ -1,2 +1,3 @@
 INFO: app started
 INFO: connected to db
+ERROR: database connection failed
