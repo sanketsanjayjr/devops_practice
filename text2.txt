@@ -1,2 +1,1 @@
-this is a second file line1\n this is also second file line 2
 this is second file line1 \n this is also file 2 line 2 updated
