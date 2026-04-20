@@ -1,4 +1,3 @@
-
 name: DevOps CI Pipeline
 
 on:
@@ -13,10 +12,16 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Show files
         run: ls -la
 
-      - name: Print message
-        run: echo "CI pipeline running successfully"
+      - name: Simulate build
+        run: echo "Building application..."
+
+      - name: Simulate tests
+        run: echo "Running tests..."
+
+      - name: Success message
+        run: echo "Build and test completed"
